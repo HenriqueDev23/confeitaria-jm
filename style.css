@@ -1,0 +1,209 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+.container {
+  width: 90%;
+  max-width: 500px;
+}
+.container2{
+  width: 90%;
+  max-width: 900px;
+}
+body {
+  background: #F9F3EF;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  background-image: url('components/images/rosass.png');
+  background-repeat: repeat;
+  background-size: 150px;
+  background-color: #F9F3EF;
+  font-size: 20px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.topo {
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.800);
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.topo2 {
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.800);
+  padding: 40px;
+  border-radius: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.logo2 {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.logo3 {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* para garantir que a imagem preencha o espaço sem distorcer */
+  border-radius: 40px;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+}
+
+.icone {
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.info {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+p.pa{
+  text-align: justify;
+}
+.align {
+  text-align: left;
+  margin-top: 0;
+}
+
+.icone:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 20px;
+  /* espaço entre logo e menu */
+}
+.picture{
+  float: right;
+  width: 200px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+ul.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.produtos {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+li {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #C1736B;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #C1736B;
+}
+.contact{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+.contact:hover{
+  transform: scale(1.2);
+}
+.emoji {
+  display: flex;
+  font-size: 40px;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s;
+}
+
+.emoji:hover {
+  transform: scale(1.5);
+}
+
+.voltar {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #C1736B;
+  font-weight: bold;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.voltar:hover {
+  transform: scale(1.05);
+}
+
+html {
+  overflow-y: auto;
+}
+
+/* Responsivo*/
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
